@@ -1,0 +1,54 @@
+body{
+    background-color : #222831;
+    align-items: center;
+    width:80%;
+    margin:auto;
+    text-align:center;
+    margin-top:250px;
+}
+
+
+#days {
+    position: relative;
+    font-family:Ubuntu;
+    font-weight: bold;
+    color: #EEEEEE;
+    font-size:clamp(100px,10vw,150px);
+    width:100%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+#time {
+    margin-top: 5px;
+    margin-bottom:80px;
+    position: relative;
+    font-family:Roboto;
+    font-weight: bold;
+    color: #00ADB5;
+    font-size:clamp(40px,5vw,60px);
+    width:100%;
+}
+
+.progress-bar{
+
+    background-color: #393E46;
+    height: 30px;
+    border: none;
+    border-radius:15px;
+    width: 90%;
+    margin:auto;
+}
+
+#progress{
+    position: relative;
+    background-color:#00ADB5;
+    height: 30px;
+    border: none;
+    border-radius:15px;
+    width:2%;
+    font-family: Ubuntu;
+    font-size:18px;
+    line-height: 30px;
+    color: white;
+}
