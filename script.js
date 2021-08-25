@@ -1,4 +1,4 @@
-var countDownDate = new Date("Dec 21, 2021 00:00:00").getTime();
+var countDownDate = new Date("Dec 11, 2021 00:00:00").getTime();
 
 function time_function() {
     var now = new Date().getTime();
@@ -9,7 +9,7 @@ function time_function() {
     var weeks = Math.floor(distance / (1000 * 60 * 60 * 24 * 7));
     var months = Math.floor(distance / (1000 * 60 * 60 * 24 * 30));
 
-    progress = ((14078787271 - distance) / 14078787271) * 100;
+    progress = ((1629883411258 - distance) / 1629883411258) * 100;
       
     document.getElementById("days").innerHTML = days + "D";
     document.getElementById("time").innerHTML = months + "M " + weeks + "W " + hours + "H";
