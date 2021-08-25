@@ -9,7 +9,7 @@ function time_function() {
     var weeks = Math.floor(distance / (1000 * 60 * 60 * 24 * 7));
     var months = Math.floor(distance / (1000 * 60 * 60 * 24 * 30));
 
-    progress = ((1629883411258 - distance) / 1629883411258) * 100;
+    progress = ((1629883411 - distance) / 1629883411) * 100;
       
     document.getElementById("days").innerHTML = days + "D";
     document.getElementById("time").innerHTML = months + "M " + weeks + "W " + hours + "H";
